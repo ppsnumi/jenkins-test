@@ -4,6 +4,7 @@ pipeline {
     stage('desc') {
       steps {
         echo 'hello jenkins'
+        echo 'new message'
       }
     }
   }
